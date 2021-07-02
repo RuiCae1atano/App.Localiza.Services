@@ -19,6 +19,8 @@ namespace Localiza.Api.Numeros.Services
         }
         public async Task<(bool IsSuccess, dynamic ListaNumeros, string ErrorMessage)> GetListaNumeros(int num)
         {
+            if (num <= 0)
+                throw new Exception("Numero não pode ser usado");
             var divisoresResult = await divisoresService.GetNumerosDivisoresAsync(num);
             
             if (!divisoresResult.IsSuccess)

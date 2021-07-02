@@ -1,4 +1,5 @@
 ﻿using Localiza.Api.NumeroPrimos.Core.ExtensionMethods;
+using Localiza.Api.NumerosDivisores.Core;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -18,6 +19,9 @@ namespace Localiza.Api.NumeroPrimos.Models
         }
         private static List<int> ListaPrimos(List<int> lista)
         {
+            if (lista.Count <= 0)
+                throw new BusinessRuleException("Erro a lista não pode ser vazia");
+
             var result = new List<int>();
             Console.WriteLine("\nOs numeros primos sao: ");
             foreach (var item in lista)

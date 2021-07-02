@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Localiza.Api.NumeroPrimos",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Localiza.Api.NumerosDivisores", "Localiza.Api.NumerosDivisores\Localiza.Api.NumerosDivisores.csproj", "{89440210-B62F-4586-A91A-22F70FAEB9F7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Localiza.Api.Numeros", "Api.Localiza.Numeros\Localiza.Api.Numeros.csproj", "{E0E0ACE7-80D7-43B5-A71D-3D65A6DB05E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Localiza.Api.Numeros.Search", "Api.Localiza.Numeros\Localiza.Api.Numeros.Search.csproj", "{E0E0ACE7-80D7-43B5-A71D-3D65A6DB05E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localiza.Api.NumerosPrimos.Tests", "NumeroPrimoService\Localiza.Api.NumerosPrimos.Tests.csproj", "{7F2CE433-7ADC-4624-B1B6-721CC93B7847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localiza.Api.NumerosDivisores.Tests", "Localiza.Api.NumerosDivisores.Tests\Localiza.Api.NumerosDivisores.Tests.csproj", "{2970EFA5-EA1E-4739-9849-EC7DBC39EEDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{E0E0ACE7-80D7-43B5-A71D-3D65A6DB05E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0E0ACE7-80D7-43B5-A71D-3D65A6DB05E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0E0ACE7-80D7-43B5-A71D-3D65A6DB05E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F2CE433-7ADC-4624-B1B6-721CC93B7847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F2CE433-7ADC-4624-B1B6-721CC93B7847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F2CE433-7ADC-4624-B1B6-721CC93B7847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F2CE433-7ADC-4624-B1B6-721CC93B7847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2970EFA5-EA1E-4739-9849-EC7DBC39EEDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2970EFA5-EA1E-4739-9849-EC7DBC39EEDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2970EFA5-EA1E-4739-9849-EC7DBC39EEDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2970EFA5-EA1E-4739-9849-EC7DBC39EEDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -10,11 +10,6 @@ namespace Localiza.Api.NumerosDivisores.Services
     public class DivisoresService : IDivisoresService
     {
 
-        public DivisoresService()
-        {
-
-        }
-
         public List<int> GetAllDivisores(int num)
         {
             Divisores divisores = new Divisores();
